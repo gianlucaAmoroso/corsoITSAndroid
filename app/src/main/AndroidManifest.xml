@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+            <!-- direttive per il sistema operativo android che indicano che l'activity
+                 è la principale e che è quella da eseguire al lancio dell'applicazione -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
