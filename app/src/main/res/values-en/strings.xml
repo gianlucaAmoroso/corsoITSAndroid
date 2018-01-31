@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppSpotSoftware</string>
+    <string name="hello">Hello World!</string>
+    <string name="course">ITS Course</string>
+    <string name="hintTry">Try</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="errorLogin">Invalid username or password!</string>
+</resources>

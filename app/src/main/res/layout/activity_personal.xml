@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fitstic.gianlucaamoroso.appspotsoftware.PersonalActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txvFromIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hintTry"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txvUserFromIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <FrameLayout
+        android:id="@+id/frameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+</LinearLayout>
